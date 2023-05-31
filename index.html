@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.cs">
+    <link rel="stylesheet" href="style.css">
   
     <title>Encriptaaador de texto</title>
 </head>
 
 <body>
+
     <div class="container">
+        <div class="header">
+            <h1>
+                <img src="Imagenes/Logo.png" alt="">
+            </h1>
+        </div>
         <div class="encriptar">
             <textarea 
             name="texto" 
@@ -38,12 +44,12 @@
             </div>
         </div>
         <div class="encriptado">
-            <img src="" alt="" id="muñeco"/>
+            <img src="imagenes/Muñeco.png" alt="" id="muñeco"/>
             <div class="mensaje-encriptado" id="mensaje-encriptado">
                 <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
                 <p id="parrafo">Ingresa el tecto que deseas encriptar
                 </p>
-                <textarea 
+                <textarea id="parrafo"
                 name="mensaje" 
                 id="mensaje" 
                 class="mensaje" 
@@ -51,9 +57,15 @@
                 rows="10"
                 ></textarea>   
             </div>
+            <footer>
+                <ul>
+                    <li><i class="fa-solid fa-user"></i></i> Daniel Meza Cruz</li>
+                </ul>
+            </footer>
         </div>
     </div>
 </body>
 <script src="index.js"></script>
+
 
 </html>
